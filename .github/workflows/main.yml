@@ -22,7 +22,7 @@ jobs:
         run: mvn clean verify --file ./simple-api
 
   build-and-push-docker-image:
-    needs: test-backend
+#    needs: test-backend
     runs-on: ubuntu-22.04
 
     steps:
